@@ -2,7 +2,7 @@
 
 MedApp is an organization focused on improving healthcare access.
 
-# Usage / Website accesscd med_app
+# Usage / Website access MedApp
 ```
 npm install
 cd server
