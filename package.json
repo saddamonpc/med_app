@@ -5,8 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -15,7 +15,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.5.3"
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",

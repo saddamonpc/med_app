@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { API_URL } from '../../../config'; // Import API URL from your config file
 
 const Sign_Up = () => {

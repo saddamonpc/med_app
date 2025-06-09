@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
@@ -7,7 +8,7 @@ function Login() {
             <div className="login-grid">
                 <div className="login-header">
                     <h1>Login</h1>
-                    <p className="login-text1">Not a member? <a href="../Sign_Up/Sign_Up.html">Sign Up</a></p>
+                    <p className="login-text1">Not a member? <Link to="/sign-up">Sign Up</Link></p>
                 </div>
 
                 <div className="login-form">

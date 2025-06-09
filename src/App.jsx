@@ -1,5 +1,5 @@
 // Import components for routing from react-router-dom library
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Import custom Navbar component
 import Navbar from './components/Navbar/Navbar';
@@ -12,7 +12,7 @@ function App() {
 
   // Render the main App component
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Display the Navbar component */}
       <Navbar />
       {/* Set up the Routes for different pages */}
@@ -22,7 +22,7 @@ function App() {
         <Route path="/login" element={<Login />} /> {/* Route for Login */}
         <Route path="/sign-up" element={<Sign_Up />} /> {/* Route for SignUp */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
